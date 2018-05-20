@@ -45,8 +45,20 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'Fuck you!'
                 });
             break;
-
-            	
+            // !GoToLow
+            case 'gotolow':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'YOU WILL GO TO LOW WHEN I TELL YOU TO'
+                });
+            break;
+            // !putyourhornup
+            case 'putyourhornup':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Jason I said put your horn back up'
+                });
+            break;
             // Just add any case commands if you want to..
          }
      }
