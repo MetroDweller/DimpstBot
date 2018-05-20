@@ -1,0 +1,16 @@
+{
+  "name": "dimpstbot",
+  "version": "1.0.0",
+  "description": "Dimpster, now in robit form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bandmaster",
+  "license": "ISC",
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "discord.js": "^11.3.2",
+    "winston": "^2.4.2"
+  }
+}
